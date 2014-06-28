@@ -1,0 +1,56 @@
+@import 'nib'
+vendor-prefixes = official webkit moz o ms
+
+body
+	background teal
+	font-family 'Snippet', sans-serif
+	font-size 30px
+	margin auto
+nav
+	background limegreen
+	text-align center
+nav ul li 
+	margin-right 12%
+	display inline
+	list-style none
+	font-size 40px
+	font-family 'Snippet', sans-serif
+nav ul li a
+	color white
+	text-decoration none
+	
+span.nota 
+	font-family 'Pacifico', cursive
+a 
+	color beige
+	text-decoration none
+
+
+p.anima1
+	text-align center
+	
+p:nth-child(3)
+	animation cambiaContent 10s infinite ease  
+	background red
+@keyframes cambiaContent
+	from
+		background blue
+	to
+		background green
+		
+		
+
+
+
+/* 			RESPONSIVE DESIGN
+320px, 480px, 600px, 768px, 1200px, 1200px */
+
+@media screen and (max-width: 1200px)
+	body
+		background lighten(blue, 40%)
+
+@media screen and (max-width: 1024px)
+	body
+		background lighten(red, 40%)
+	
+

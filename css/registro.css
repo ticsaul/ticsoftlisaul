@@ -1,0 +1,96 @@
+body {
+  background: #008080;
+  font-family: 'Snippet', sans-serif;
+  font-size: 30px;
+  margin: auto;
+}
+nav {
+  background: #32cd32;
+  text-align: center;
+}
+nav ul li {
+  margin-right: 12%;
+  display: inline;
+  list-style: none;
+  font-size: 40px;
+  font-family: 'Snippet', sans-serif;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+span.nota {
+  font-family: 'Pacifico', cursive;
+}
+a {
+  color: #f5f5dc;
+  text-decoration: none;
+}
+p.anima1 {
+  text-align: center;
+}
+p:nth-child(3) {
+  animation: cambiaContent 10s infinite ease;
+  -webkit-animation: cambiaContent 10s infinite ease;
+  -moz-animation: cambiaContent 10s infinite ease;
+  -o-animation: cambiaContent 10s infinite ease;
+  -ms-animation: cambiaContent 10s infinite ease;
+  background: #f00;
+}
+/* 			RESPONSIVE DESIGN
+320px, 480px, 600px, 768px, 1200px, 1200px */
+@media screen and (max-width: 1200px) {
+  body {
+    background: #66f;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    background: #f66;
+  }
+}
+@-moz-keyframes cambiaContent {
+  0% {
+    background: #00f;
+  }
+
+  100% {
+    background: #008000;
+  }
+}
+@-webkit-keyframes cambiaContent {
+  0% {
+    background: #00f;
+  }
+
+  100% {
+    background: #008000;
+  }
+}
+@-o-keyframes cambiaContent {
+  0% {
+    background: #00f;
+  }
+
+  100% {
+    background: #008000;
+  }
+}
+@-ms-keyframes cambiaContent {
+  0% {
+    background: #00f;
+  }
+
+  100% {
+    background: #008000;
+  }
+}
+@keyframes cambiaContent {
+  0% {
+    background: #00f;
+  }
+
+  100% {
+    background: #008000;
+  }
+}
